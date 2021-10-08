@@ -4,7 +4,7 @@
   tasks:
   - name: copy the manifest to master
     copy:
-      src: /var/lib/jenkins/workspace/release-pipeline-project/kubectl-deploy.yaml
+      src: /var/lib/jenkins/workspace/release-pipeline/kubectl-deploy.yaml
       dest: /home/ubuntu
             
   - name: deploy the application and expose as NodePort
